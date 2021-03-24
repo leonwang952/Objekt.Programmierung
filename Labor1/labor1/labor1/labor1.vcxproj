@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{37c7f283-6d6e-4ea6-b5a2-da5ddcb0e87b}</ProjectGuid>
-    <RootNamespace>test1</RootNamespace>
+    <ProjectGuid>{f17606cd-3f5b-489e-a6ad-affa26edce2a}</ProjectGuid>
+    <RootNamespace>labor1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -141,9 +141,6 @@
   <ItemGroup>
     <ClCompile Include="geometrien.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="源.cpp" />
-    <ClCompile Include="源1.cpp" />
-    <ClCompile Include="源2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="geometrien.h" />

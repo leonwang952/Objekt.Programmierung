@@ -1,4 +1,4 @@
-#include<iostream>
+﻿#include<iostream>
 
 using namespace std;
 
@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
 	// erstelle eine Variable vom Verbundtyp Kreis
-    Kreis k;
+	Kreis k;
 	// erstelle eine Variable vom Verbundtyp Rechteck
 	Rechtecke r;
 	// setze Werte der kreis
@@ -26,7 +26,7 @@ int main()
 	// gebe Werte aus
 	drucke(k);
 	drucke(r);
-	cout << "umfang des Kreis:" << umfang(k)<< endl;
+	cout << "umfang des Kreis:" << umfang(k) << endl;
 	cout << "umfang des Rechteches:" << umfang(r) << endl;
 	verschiebe(&k, 5, 5);
 	verschiebe(&r, 5, 5);

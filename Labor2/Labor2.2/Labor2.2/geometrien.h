@@ -20,9 +20,9 @@ struct Rechtecke
 	Punkt p3;
 	Punkt p4;
 };
-void drucke    (Kreis circle);
-void drucke    (Rechtecke r);
-float umfang   (Kreis circle);
-float umfang   (Rechtecke r);
+void drucke(Kreis circle);
+void drucke(Rechtecke r);
+float umfang(Kreis circle);
+float umfang(Rechtecke r);
 void verschiebe(Kreis* circle, int dx, int dy);
 void verschiebe(Rechtecke* r, int dx, int dy);
